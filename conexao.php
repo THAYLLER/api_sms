@@ -10,15 +10,11 @@ if (!$_SESSION) {
 //include_once "errors.php";
 //namespace conexao_banco\crud\conn;
 class conn {
-	/*protected $user = "u276849238_adm";
-	protected $password = "M0n731r0!!";
-	protected $host = "localhost";
-	protected $bd = "u276849238_sms";
-	protected $_db;*/
-	protected $user = "u276849238_adm";
-	protected $password = "895623casa";
-	protected $host = "mysql.hostinger.com.br";
-	protected $bd = "u276849238_sms";
+
+	protected $user = "";
+	protected $password = "";
+	protected $host = "";
+	protected $bd = "";
 	protected $_db;
 
 	public function connect() {
